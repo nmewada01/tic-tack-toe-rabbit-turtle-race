@@ -93,7 +93,7 @@ const Board = () => {
       </div>
       <div className="lastlines">
         <div className="status">
-          <u> {status} </u>
+          <h3>{status}</h3>
         </div>
         <div>
           <button className="restart" onClick={handleRestart}>
