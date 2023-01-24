@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
 }
+.title {
+  color: white;
+  font-style: italic;
+}
 .App {
   text-align: center;
   align-items: center;
