@@ -1,28 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 .App {
   text-align: center;
   align-items: center;
   justify-content: center;
   display: flex;
   flex-direction: column;
-  background-image: linear-gradient(135deg, #fd6bff 10%, #0e5cad 100%);
+  background-image: linear-gradient(135deg, whitesmoke, royalblue);
   color: #282c34;
   min-height: 100vh;
 }
 
-.heading {
-  font-size: 50px;
-}
-
-.squarestyle {
-  min-width: 60px;
-  min-height: 60px;
-  font-size: 50px;
+.boardStyle {
   text-align: center;
-  color: blue;
-  /* color: #0e5cad; */
-  /* color: #282c34; */
   font-weight: bolder;
-  padding: 30px;
+  padding: 1rem;
 }
 
 .jc-center {
@@ -35,16 +29,16 @@
 }
 
 .b-bottom-right {
-  border-right: 15px solid #530ead;
-  border-bottom: 15px solid #530ead;
+  border-right: 15px solid royalblue;
+  border-bottom: 15px solid royalblue;
 }
 
 .b-bottom {
-  border-bottom: 15px solid #530ead;
+  border-bottom: 15px solid royalblue;
 }
 
 .b-right {
-  border-right: 15px solid #530ead;
+  border-right: 15px solid royalblue;
 }
 
 button {
